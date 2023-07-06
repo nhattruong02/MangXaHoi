@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dong_ds_tin_nhan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_dong_ds_tin_nhan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/spcr"
+        app:civ_border_color="@color/cardview_shadow_start_color"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/txtten_dong_ds_tin_nhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/img_dong_ds_tin_nhan"
+        android:text="Mai Nhật Trường"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img_dong_ds_tin_nhan"
+        android:layout_below="@+id/txtten_dong_ds_tin_nhan"
+        android:text="Nhắn tin ngay!"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

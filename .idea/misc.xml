@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable-v24/do_am.xml" value="0.1" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable-v24/gio.xml" value="0.1735" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable-v24/may.xml" value="0.1735" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_button.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_button_bb.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_dong_binh_luan.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_edittext.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_edt_chat.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_edt_search.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_textview.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/custom_tv_tin_nhan.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/dialog_cap_nhat_thong_tin_cn.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_back.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_comment.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_friend.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_home.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_image.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_like.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_liked.xml" value="0.1735" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_menu.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_menu_bv.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_menu_nhom.xml" value="0.1735" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_message.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_notification.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_photo.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_search.xml" value="0.1725" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/drawable/ic_update_profile.xml" value="0.1695" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/custom_edt_search.xml" value="0.1984375" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialoag_sua_bai_viet.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialog_cap_nhat_avatar.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialog_cap_nhat_nhom.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialog_cap_nhat_thong_tin_cn.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialog_sua_bai_viet.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialog_sua_dong_binh_luan.xml" value="0.15" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialog_tao_nhom.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dialog_xem_thong_tin.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_bai_viet.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_bai_viet_1.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_ban_be.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_binh_luan.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_cho_xac_nhan.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_ds_ban_be.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_ds_tin_nhan.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_nhom.xml" value="0.1984375" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_thanh_vien_nhom.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_them_tv_nhom.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_thong_bao.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_tin_nhan_gui.xml" value="0.2" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/dong_tin_nhan_nhan.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/fragment_friend.xml" value="0.22" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/fragment_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/fragment_notification.xml" value="0.203125" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_dang_bai_viet.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_dang_ky.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_dang_nhap.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_danh_sach_ban_be.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_doi_mat_khau.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_dong_binh_luan.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_ds_tin_nhan.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_ds_tin_nhan_nhom.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_them_tv_nhom.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_thong_tin_nhom.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_tim_kiem_bb.xml" value="0.17" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_tin_nhan.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_tin_tuc.xml" value="0.4799498746867168" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_trang_ca_nhan.xml" value="0.20416666666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_xem_thoi_tiet.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/layout_xem_vi_tri.xml" value="0.17" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/layout/splash_screen.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/MangXaHoiGUMP/app/src/main/res/menu/menu_bai_viet.xml" value="0.19947916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/spcr" />
+            <ImageView
+                android:id="@+id/img_quay_lai_tcn"
+                android:padding="10dp"
+                android:src="@drawable/ic_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/img_xem_thong_tin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+
+                android:padding="10dp"
+                android:src="@drawable/ic_profile" />
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_avatar"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:clickable="true"
+            android:src="@drawable/spcr"
+            app:civ_border_color="@color/cardview_shadow_start_color"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/txtten_tcn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/civ_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Mai Nhật Trường"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_cn_thong_tin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/civ_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/txtten_tcn"
+            android:src="@drawable/ic_update_profile" />
+
+        <TextView
+            android:id="@+id/txtmota_tcn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtten_tcn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="123456"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_trang_ca_nhan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

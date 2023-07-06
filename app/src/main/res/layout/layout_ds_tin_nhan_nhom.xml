@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5ccdc2"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:id="@+id/img_quay_lai_dstn_nhom"
+            android:src="@drawable/ic_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <EditText
+            android:id="@+id/edt_tk_nhom"
+            android:background="#5ccdc2"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:hint="Tìm kiếm" />
+        <ImageView
+            android:id="@+id/img_tao_nhom"
+            android:src="@drawable/ic_create_group"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_ds_tin_nhan_nhom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp" />
+</LinearLayout>

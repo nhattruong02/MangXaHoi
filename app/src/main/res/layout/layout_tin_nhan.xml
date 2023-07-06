@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#5ccdc2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_quay_lai_tn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_back" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_tin_nhan"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/img_quay_lai_tn"
+                android:src="@drawable/spcr" />
+
+            <TextView
+                android:id="@+id/txt_ten_tn"
+                android:layout_width="230dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/img_tin_nhan"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="MAI NHAT TRUONG"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_menu_nhom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/txt_ten_tn"
+                android:src="@drawable/ic_menu_nhom"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_ds_tin_nhan"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/rcv_ds_tin_nhan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_edt_chat"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_soan_tin_nhan"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/white"
+            android:hint="Soạn tin nhắn"
+            android:paddingLeft="10dp" />
+
+        <ImageView
+
+            android:id="@+id/img_gui_tin_nhan"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_send_message" />
+    </LinearLayout>
+</RelativeLayout>

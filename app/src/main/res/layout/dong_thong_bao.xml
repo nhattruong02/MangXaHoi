@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_dong_tb"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/spcr"
+        app:civ_border_color="@color/cardview_shadow_start_color"
+        app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/txtten_dong_tb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/img_dong_tb"
+            android:text="Mai Nhật Trường"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_nd_tb"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtten_dong_tb"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/img_dong_tb"
+        android:text="123456"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_tg_tb"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtten_dong_tb"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/txt_nd_tb"
+        android:text="05-05-2002"
+        android:textSize="20sp" />
+
+</RelativeLayout>

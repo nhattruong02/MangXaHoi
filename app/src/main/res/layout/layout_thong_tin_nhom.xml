@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#5ccdc2">
+
+        <ImageView
+            android:id="@+id/img_quay_lai_ttnhom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Thông tin nhóm"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:padding="7dp"
+            android:scaleType="fitXY"
+            android:id="@+id/them_thanh_vien"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_add_group"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar_nhom"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/spcr" />
+
+        <TextView
+            android:id="@+id/txt_ten_nhom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_avatar_nhom"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="123123"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_mota_nhom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_ten_nhom"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="123123"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/img_cn_nhom"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/txt_ten_nhom"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/txt_mota_nhom"
+            android:src="@drawable/ic_update_group" />
+        <TextView
+            android:id="@+id/txt_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_mota_nhom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Thành viên:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_sl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_mota_nhom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/txt_tv"
+            android:text="15"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ListView
+            android:id="@+id/lv_thanh_vien"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_below="@+id/txt_sl" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_roi_nhom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_thanh_vien"
+            android:layout_marginTop="10dp"
+            android:text="Rời nhóm"></Button>
+    </RelativeLayout>
+</LinearLayout>

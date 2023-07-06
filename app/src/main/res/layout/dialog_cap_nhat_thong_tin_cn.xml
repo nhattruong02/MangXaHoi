@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_margin="20dp"
+        android:textColor="#51c9be"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Cập nhật thông tin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_ht_cntt"
+        android:textSize="30dp"
+        android:hint="Họ tên"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_gt_cntt"
+        android:textSize="30dp"
+        android:hint="Giới tính"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_ns_cntt"
+        android:textSize="30dp"
+        android:hint="Ngày sinh"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_sdt_cntt"
+        android:textSize="30dp"
+        android:hint="Số điện thoại"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_mo_ta_cntt"
+        android:textSize="30dp"
+        android:hint="Mô tả"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btncapnhat"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_button"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="Cập nhật"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnhuycapnhat"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:text="Huỷ" />
+    </LinearLayout>
+</LinearLayout>

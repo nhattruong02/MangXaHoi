@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:layout_marginBottom="30dp">
+
+    <TextView
+        android:textColor="#51c9be"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="Thông tin cá nhân"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="#51c9be"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Giới tính:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_gtcn"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="#51c9be"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Năm sinh:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_nscn"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="#51c9be"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Số điện thoại:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_sdtcn"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+</LinearLayout>
